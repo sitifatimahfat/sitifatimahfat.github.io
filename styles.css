@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(173, 215, 230);
-  }
+    background-color: beige;
+}
 h6{
     font-size: 20px;
     display: block;
@@ -9,19 +9,45 @@ h6{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    padding-top: 15px;
 }
 #borderimg { 
     border: 30px solid transparent; 
     color: black;
     padding: 15px;
-    border: 5px solid #555;
+    border: 5px solid black;
+  }
   }
   #judul{
     text-align: center;
+    color: firebrick;
   }
   td {
     text-align: center;
   }
   li{
     text-align: left;
+  }
+  th{
+color: black;
+  }
+  p{
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  table{
+    border-color:brown;
+  }
+  h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-bottom: 10px;
   }
