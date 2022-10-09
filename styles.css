@@ -17,6 +17,17 @@ h6{
     padding: 15px;
     border: 5px solid black;
   }
+  
+  img {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
   #judul{
     text-align: center;
     color: firebrick;
@@ -29,6 +40,10 @@ h6{
   }
   th{
 color: black;
+  }
+  
+  h1{
+    text-align: center;
   }
   p{
     display: block;
@@ -50,3 +65,30 @@ color: black;
     font-weight: bold;
     padding-bottom: 10px;
   }
+.hero {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  /* Smartphone */
+  /* default (dari 0px samapai min-width selanjutnya) */
+.hero > img {
+  width: 100%;
+}
+  /* Tablet */
+  /* Jika memasuki 768px */
+  @media (min-width:768 px){
+    .hero > img {
+      width: 80%;
+    } 
+  }
+
+  /* PC */
+  /* Jika memasuki 992px */
+  @media (min-width:992 px){
+    .hero > img {
+      width: 60%;
+    } 
+  }
+  
